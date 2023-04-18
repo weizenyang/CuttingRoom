@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Samples/Waiting.unity
+    guid: 49e8205563d35eb4caef58a3a117d496
+  - enabled: 1
+    path: Assets/Samples/CuttingRoom.unity
+    guid: 4db5c0126ef6b78408e9b134df9b5768
   m_configObjects: {}

@@ -38,7 +38,7 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44657898, g: 0.4964133, b: 0.5748178, a: 1}
+  m_IndirectSpecularColor: {r: 0.44657874, g: 0.49641258, b: 0.5748172, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -584,8 +584,7 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: 
   constraintMode: 0
-  candidates:
-  - {fileID: 871223308}
+  candidates: []
   constraints: []
   methodContainer:
     methodClass: 
@@ -1388,6 +1387,8 @@ GameObject:
   - component: {fileID: 871223313}
   - component: {fileID: 871223314}
   - component: {fileID: 871223316}
+  - component: {fileID: 871223317}
+  - component: {fileID: 871223318}
   m_Layer: 0
   m_Name: Decision1
   m_TagString: Untagged
@@ -1541,6 +1542,32 @@ MonoBehaviour:
   guid: 76fecc43-7920-4c76-9155-abe71bb7057d
   defaultValue: 0
   value: 0
+--- !u!114 &871223317
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871223307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98dfc6b59dc3c514db0c25b4bec25089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: Decision1
+  variableStoreLocation: 1
+--- !u!114 &871223318
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 871223307}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcfa3a0aedd70f44cb862d39316cd09a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &882382001
 GameObject:
   m_ObjectHideFlags: 0
@@ -3026,6 +3053,8 @@ GameObject:
   - component: {fileID: 1615880541}
   - component: {fileID: 1615880549}
   - component: {fileID: 1615880550}
+  - component: {fileID: 1615880552}
+  - component: {fileID: 1615880551}
   m_Layer: 0
   m_Name: Video3
   m_TagString: Untagged
@@ -3187,6 +3216,32 @@ MonoBehaviour:
   guid: fdaf7147-cded-4892-9bc2-0e6c7dc2087b
   defaultValue: B
   value: B
+--- !u!114 &1615880551
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615880540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: fcfa3a0aedd70f44cb862d39316cd09a, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &1615880552
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1615880540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 98dfc6b59dc3c514db0c25b4bec25089, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  variableName: 
+  variableStoreLocation: 1
 --- !u!1 &1897549518
 GameObject:
   m_ObjectHideFlags: 0
